@@ -1,0 +1,33 @@
+{
+  "name": "notes-app-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\" index.html vite.config.js vitest.config.js",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,css}\" index.html vite.config.js vitest.config.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "9.3.4",
+    "@testing-library/jest-dom": "6.6.4",
+    "@testing-library/react": "14.3.1",
+    "@testing-library/user-event": "14.5.2",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^5.1.4",
+    "jsdom": "22.1.0",
+    "prettier": "3.9.10",
+    "vite": "^6.4.5",
+    "vitest": "^5.0.5"
+  }
+}

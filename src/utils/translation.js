@@ -1,0 +1,118 @@
+const translations = {
+  id: {
+    // General
+    title: 'Personal Notes',
+    loading: 'Memuat catatan...',
+    loadError: 'Catatan gagal dimuat. Periksa koneksi internet, lalu coba lagi.',
+    retry: 'Coba lagi',
+    sessionRestoreError: 'Sesi belum dapat dipulihkan. Periksa koneksi internet, lalu coba lagi.',
+    saveError: 'Catatan gagal disimpan. Periksa koneksi internet, lalu coba lagi.',
+    actionError: 'Aksi gagal dilakukan. Silakan coba lagi.',
+    confirmDelete: 'Yakin ingin menghapus catatan ini? Tindakan ini tidak dapat dibatalkan.',
+    noteTitleLabel: 'Judul catatan',
+    noteBodyLabel: 'Isi catatan',
+    saveNote: 'Simpan catatan',
+    savingNote: 'Menyimpan catatan...',
+    deleting: 'Menghapus...',
+    archiving: 'Mengarsipkan...',
+    unarchiving: 'Mengembalikan...',
+    errorBoundaryTitle: 'Oops! Terjadi Kesalahan',
+    errorBoundaryDescription: 'Maaf, halaman ini mengalami gangguan. Silakan coba kembali.',
+    errorBoundaryRetry: 'Coba Lagi',
+    errorBoundaryReload: 'Muat Ulang Halaman',
+    // Header
+    archive: 'Arsip',
+    logout: 'Logout',
+    login: 'Login',
+    register: 'Register',
+    greeting: 'Halo',
+    // Home Page
+    search: 'Cari catatan...',
+    allNotes: 'Semua Catatan',
+    noNotes: 'Tidak ada catatan ditemukan',
+    // Add Page
+    add: 'Tambah Catatan',
+    titlePlaceholder: 'Judul catatan',
+    bodyPlaceholder: 'Isi catatan',
+    // Archive Page
+    archiveTitle: 'Arsip Catatan',
+    noArchive: 'Tidak ada catatan arsip',
+    // Detail Page
+    archiveAction: 'Arsipkan',
+    unarchive: 'Kembalikan',
+    delete: 'Hapus',
+    noteNotFound: 'Catatan tidak ditemukan',
+    // Login Page
+    email: 'Email',
+    password: 'Password',
+    noAccount: 'Belum memiliki akun?',
+    loginSuccess: 'Login berhasil.',
+    loginLoading: 'Sedang login...',
+    loginError: 'Terjadi kesalahan saat login. Silakan coba lagi.',
+    // Register Page
+    name: 'Nama',
+    haveAccount: 'Sudah memiliki akun?',
+    registerSuccess: 'Registrasi berhasil, silakan login.',
+    registerLoading: 'Sedang mendaftar...',
+    registerError: 'Terjadi kesalahan saat registrasi. Silakan coba lagi.',
+  },
+  en: {
+    // General
+    title: 'Personal Notes',
+    loading: 'Loading notes...',
+    loadError: 'Notes could not be loaded. Check your connection and try again.',
+    retry: 'Try again',
+    sessionRestoreError: 'Your session could not be restored. Check your connection and try again.',
+    saveError: 'The note could not be saved. Check your connection and try again.',
+    actionError: 'The action could not be completed. Please try again.',
+    confirmDelete: 'Are you sure you want to delete this note? This action cannot be undone.',
+    noteTitleLabel: 'Note title',
+    noteBodyLabel: 'Note content',
+    saveNote: 'Save note',
+    savingNote: 'Saving note...',
+    deleting: 'Deleting...',
+    archiving: 'Archiving...',
+    unarchiving: 'Restoring...',
+    errorBoundaryTitle: 'Oops! Something went wrong',
+    errorBoundaryDescription: 'Sorry, something went wrong. Please try again.',
+    errorBoundaryRetry: 'Try Again',
+    errorBoundaryReload: 'Reload Page',
+    // Header
+    archive: 'Archive',
+    logout: 'Logout',
+    login: 'Login',
+    register: 'Register',
+    greeting: 'Hello',
+    // Home Page
+    search: 'Search notes...',
+    allNotes: 'All Notes',
+    noNotes: 'No notes found',
+    // Add Page
+    add: 'Add Note',
+    titlePlaceholder: 'Note title',
+    bodyPlaceholder: 'Note content',
+    // Archive Page
+    archiveTitle: 'Archived Notes',
+    noArchive: 'No archived notes',
+    // Detail Page
+    archiveAction: 'Archive',
+    unarchive: 'Restore',
+    delete: 'Delete',
+    noteNotFound: 'Note not found',
+    // Login Page
+    email: 'Email',
+    password: 'Password',
+    noAccount: 'Do not have an account?',
+    loginSuccess: 'Login successful.',
+    loginLoading: 'Logging in...',
+    loginError: 'An error occurred while logging in. Please try again.',
+    // Register Page
+    name: 'Name',
+    haveAccount: 'Already have an account?',
+    registerSuccess: 'Registration successful, please login.',
+    registerLoading: 'Creating account...',
+    registerError: 'An error occurred while registering. Please try again.',
+  },
+};
+
+export default translations;
