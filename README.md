@@ -75,7 +75,13 @@ The app currently uses the Dicoding Notes API at `https://notes-api.dicoding.dev
 
 ## Screenshots
 
-Add screenshots of both themes here before publishing the repository. Capture them using demo notes and a test account, and make sure no personal notes, email addresses, or account details are visible.
+### Login — Dark Mode
+
+![Personal Notes App Login — Dark Mode](screenshots/dark-mode.png)
+
+### Login — Light Mode
+
+![Personal Notes App Login — Light Mode](screenshots/light-mode.png)
 
 ## Notes
 
